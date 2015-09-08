@@ -11,3 +11,23 @@ header {
 	padding: 35px;
 	text-shadow:2px 2px 5px rgba(0,0,0,1);
 }
+
+nav ul {
+	background: rgba(10,70,180,1);
+	padding: 1px;
+}
+
+nav ul li, nav ul li a {
+	color: #fff;
+	display: inline-block;
+}
+nav ul li a:link, nav ul li a:visited {
+	padding: 20px;
+	text-decoration: none;
+	font-family: serif;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover, nav ul li a:active {
+	background: rgba(50, 50, 150, 1);
+}
