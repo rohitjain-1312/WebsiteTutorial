@@ -31,3 +31,42 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li a:hover, nav ul li a:active {
 	background: rgba(100,100,100,1);	
 }
+
+main {
+	width: 95%;
+	margin: 15px;
+}
+
+main article {
+	background: rgba(245,245,245,1);
+	border: 1px solid #ddd;
+	width: 65%;
+}
+
+main article h1 {
+	color: rgba(97,92,92,1);
+}
+
+main article img {
+	width: 70%;
+}
+
+main article p {
+	color: rgba(20, 20, 220, 1);
+}
+
+main article p span {
+	color: rgba(20, 20, 130, 1);
+}
+
+main article a {
+	color: rgba(150,50,250,1);
+	display: block;
+	text-align: right;
+	padding: 0 20px 2px 0;
+	text-decoration:  underline;
+}
+
+main article a:hover {
+	color: rgba(150,50,250,0.75);
+}
